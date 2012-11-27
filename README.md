@@ -46,4 +46,17 @@ snippet      |   method                                     | Checks that       
 **assnisins**|`assertNotIsInstance(obj, cls, msg=None)`     | not isinstance(a, b)| 2.7
 
 
+It is also possible to check that exceptions and warnings are raised using the following methods:
 
+
+snippet      |   method                                     | Checks that         | New in
+-------------|----------------------------------------------|---------------------|------------ 
+@todo        |||
+
+
+
+There are also other methods used to perform more specific checks, such as:
+
+snippet      |   method                                     | Checks that         | New in
+-------------|----------------------------------------------|---------------------|------------ 
+@todo        |||
