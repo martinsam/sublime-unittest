@@ -53,10 +53,22 @@ snippet      |   method                                     | Checks that       
 -------------|----------------------------------------------|---------------------|------------ 
 @todo        |||
 
-
+	assertRaises(exc, fun, *args, **kwds)
+	assertRaisesRegexp(exc, re, fun, *args, **kwds)
 
 There are also other methods used to perform more specific checks, such as:
 
 snippet      |   method                                     | Checks that         | New in
 -------------|----------------------------------------------|---------------------|------------ 
 @todo        |||
+
+	assertAlmostEqual(a, b)  	 
+	assertNotAlmostEqual(a, b)
+	assertGreater(a, b) 
+	assertGreaterEqual(a, b)
+	assertLess(a, b) 
+	assertLessEqual(a, b) 	
+	assertRegexpMatches(s, re) 	
+	assertNotRegexpMatches(s, re) 	
+	assertItemsEqual(a, b)
+	assertDictContainsSubset(a, b)
