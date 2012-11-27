@@ -15,3 +15,4 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 ### Assertions
 
 - **asse** `assertEqual(first, second, msg=None)`
+- **assne** `assertNotEqual(first, second, msg=None)`
