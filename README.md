@@ -7,13 +7,20 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ## Installation
 
-### MacOs
+### Automatic installation 
+
+	TODO
+
+### Manual installation 
+
+#### MacOs
 	cd /User/[Your User]/Library/Application\ Support/Sublime\ Text\ 2/Packages
 	git clone https://github.com/martinsam/sublime-unittest ./Unittest
 
-### Linux
+#### Linux
 	cd /home/[Your user]/.config/sublime-text-2/Packages/
 	git clone https://github.com/martinsam/sublime-unittest ./Unittest
+
 
 ## Snippet
 
