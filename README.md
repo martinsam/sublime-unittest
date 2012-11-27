@@ -58,17 +58,16 @@ snippet      |   method                                     | Checks that       
 
 There are also other methods used to perform more specific checks, such as:
 
-snippet      |   method                                     | Checks that         | New in
--------------|----------------------------------------------|---------------------|------------ 
-@todo        |||
-
-	assertAlmostEqual(a, b)  	 
-	assertNotAlmostEqual(a, b)
-	assertGreater(a, b) 
-	assertGreaterEqual(a, b)
-	assertLess(a, b) 
-	assertLessEqual(a, b) 	
-	assertRegexpMatches(s, re) 	
-	assertNotRegexpMatches(s, re) 	
-	assertItemsEqual(a, b)
-	assertDictContainsSubset(a, b)
+snippet      |   method                                                               | Checks that         | New in
+-------------|------------------------------------------------------------------------|---------------------|------------ 
+**assae**    | `assertAlmostEqual(first, second, places=7, msg=None, delta=None)`     |                     |
+**assnae**   | `assertNotAlmostEqual(first, second, places=7, msg=None, delta=None)`  |                     |
+**assg**     | `assertGreater(first, second, msg=None)`                               |                     | 2.7
+**assge**    | `assertGreaterEqual(first, second, msg=None)`                          |                     | 2.7
+**assl**     | `assertLess(first, second, msg=None)`                                  |                     | 2.7
+**assle**    | `assertLessEqual(first, second, msg=None)`                             |                     | 2.7
+**assrm**    | `assertRegexpMatches(text, regexp, msg=None)`                          |                     | 2.7
+**assnrm**   | `assertNotRegexpMatches(text, regexp, msg=None)`                       |                     | 2.7
+**assie**    | `assertItemsEqual(actual, expected, msg=None)`                         |                     | 2.7
+**assdcs**   | `assertDictContainsSubset(expected, actual, msg=None)`                 |                     | 2.7
+ 	 
