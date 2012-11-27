@@ -14,4 +14,4 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ### Assertions
 
-- **asse** `assertEquals()`
+- **asse** `assertEqual(first, second, msg=None)`
