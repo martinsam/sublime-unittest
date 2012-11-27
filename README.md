@@ -12,7 +12,7 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ### Automatic installation 
 
-@TODO
+@TODO - http://wbond.net/sublime_packages/package_control
 
 ### Manual installation 
 
