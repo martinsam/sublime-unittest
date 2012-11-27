@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+assertIsNone(${1:expr}${2:, message='${3:message}'});
+]]></content>
+<tabTrigger>assisne</tabTrigger>
+<scope>source.python</scope>
+</snippet>

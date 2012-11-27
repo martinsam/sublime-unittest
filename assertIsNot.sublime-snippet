@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+assertIsNot(${1:first}, ${2:second}${3:, message='${4:message}'});
+]]></content>
+<tabTrigger>assisnt</tabTrigger>
+<scope>source.python</scope>
+</snippet>
