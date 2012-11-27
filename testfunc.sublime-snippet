@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+def test_${1:Name}(self):
+	${2:}
+]]></content>
+<tabTrigger>testfunc</tabTrigger>
+<scope>source.python</scope>
+</snippet>

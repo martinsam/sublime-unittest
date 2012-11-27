@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+class ${1:Name}TestCase(unittest.TestCase):
+	${2:}
+]]></content>
+<tabTrigger>testclass</tabTrigger>
+<scope>source.python</scope>
+</snippet>

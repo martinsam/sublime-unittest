@@ -27,6 +27,18 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ## Snippet
 
+### import / function
+
+testclass
+
+	class [Foo]TestCase(unittest.TestCase):
+
+
+testfunc
+
+	def test_[foo](self):
+
+
 ### Assertions
 
 
@@ -70,4 +82,4 @@ snippet      |   method                                                         
 **assnrm**   | `assertNotRegexpMatches(text, regexp, msg=None)`                       |                     | 2.7
 **assie**    | `assertItemsEqual(actual, expected, msg=None)`                         |                     | 2.7
 **assdcs**   | `assertDictContainsSubset(expected, actual, msg=None)`                 |                     | 2.7
- 	 
+ 
