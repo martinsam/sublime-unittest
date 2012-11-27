@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertNotEqual(${1:first}, ${2:second}${3:, message='${4:message}'});
+assertNotEqual(${1:first}, ${2:second}${3:, message=${4:message}});
 ]]></content>
 <tabTrigger>assne</tabTrigger>
 <scope>source.python</scope>

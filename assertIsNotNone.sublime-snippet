@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertIsNotNone(${1:expr}${2:, message='${3:message}'});
+assertIsNotNone(${1:expr}${2:, message=${3:message}});
 ]]></content>
 <tabTrigger>assisntne</tabTrigger>
 <scope>source.python</scope>

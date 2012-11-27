@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertNotIn(${1:expr}${2:, message='${3:message}'});
+assertNotIn(${1:expr}${2:, message=${3:message}});
 ]]></content>
 <tabTrigger>assnin</tabTrigger>
 <scope>source.python</scope>

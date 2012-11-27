@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+assertAlmostEqual(${1:first}, ${2:second}${3:, places=${4:7}, msg=${5:message}, delta=${6:delta}});
+]]></content>
+<tabTrigger>assae</tabTrigger>
+<scope>source.python</scope>
+</snippet>
