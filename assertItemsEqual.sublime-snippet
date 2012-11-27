@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+assertItemsEqual(${1:actual}, ${2:expected}${3:, message=${4:message}});
+]]></content>
+<tabTrigger>assie</tabTrigger>
+<scope>source.python</scope>
+</snippet>

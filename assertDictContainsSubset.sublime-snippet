@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+assertDictContainsSubset(${1:actual}, ${2:expected}${3:, message=${4:message}});
+]]></content>
+<tabTrigger>assdcs</tabTrigger>
+<scope>source.python</scope>
+</snippet>
