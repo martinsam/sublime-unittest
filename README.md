@@ -29,14 +29,16 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ### import / function
 
-testclass
+**testclass**
 
 	class [Foo]TestCase(unittest.TestCase):
+		...
 
 
-testfunc
+**testfunc**
 
 	def test_[foo](self):
+		...
 
 
 ### Assertions
@@ -72,14 +74,14 @@ There are also other methods used to perform more specific checks, such as:
 
 snippet      |   method                                                               | Checks that         | New in
 -------------|------------------------------------------------------------------------|---------------------|------------ 
-**assae**    | `assertAlmostEqual(first, second, places=7, msg=None, delta=None)`     |                     |
-**assnae**   | `assertNotAlmostEqual(first, second, places=7, msg=None, delta=None)`  |                     |
-**assg**     | `assertGreater(first, second, msg=None)`                               |                     | 2.7
-**assge**    | `assertGreaterEqual(first, second, msg=None)`                          |                     | 2.7
-**assl**     | `assertLess(first, second, msg=None)`                                  |                     | 2.7
-**assle**    | `assertLessEqual(first, second, msg=None)`                             |                     | 2.7
-**assrm**    | `assertRegexpMatches(text, regexp, msg=None)`                          |                     | 2.7
-**assnrm**   | `assertNotRegexpMatches(text, regexp, msg=None)`                       |                     | 2.7
-**assie**    | `assertItemsEqual(actual, expected, msg=None)`                         |                     | 2.7
-**assdcs**   | `assertDictContainsSubset(expected, actual, msg=None)`                 |                     | 2.7
+**assae**    | `assertAlmostEqual(first, second, places=7, msg=None, delta=None)`     | round(a-b, 7) == 0              |
+**assnae**   | `assertNotAlmostEqual(first, second, places=7, msg=None, delta=None)`  | round(a-b, 7) != 0              |
+**assg**     | `assertGreater(first, second, msg=None)`                               | a > b                           | 2.7
+**assge**    | `assertGreaterEqual(first, second, msg=None)`                          | a >= b                          | 2.7
+**assl**     | `assertLess(first, second, msg=None)`                                  | a < b                           | 2.7
+**assle**    | `assertLessEqual(first, second, msg=None)`                             | a <= b                          | 2.7
+**assrm**    | `assertRegexpMatches(text, regexp, msg=None)`                          | regex.search(s)                 | 2.7
+**assnrm**   | `assertNotRegexpMatches(text, regexp, msg=None)`                       | not regex.search(s)             | 2.7
+**assie**    | `assertItemsEqual(actual, expected, msg=None)`                         | sorted(a) == sorted(b)          | 2.7
+**assdcs**   | `assertDictContainsSubset(expected, actual, msg=None)`                 | key/value pairs in a exist in b | 2.7
  
