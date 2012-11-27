@@ -1,7 +1,7 @@
 # Unittest package for Sublime Text 2
 
 
-By [Samuel Martin](http://blog.creaone.fr) <<martin.sam@gmail.com>>
+By [Samuel Martin](http://blog.creaone.fr) <<martin.sam(@)gmail.com>>
 
 Twitter: @[martinsam](http://twitter.com/martinsam)
 
