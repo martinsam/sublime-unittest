@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertIsInstance(${1:obj}, ${2:class}${3:, message=${4:message}});
+assertIsInstance(${1:obj}, ${2:class}${3:, msg=${4:message}})
 ]]></content>
 <tabTrigger>assisins</tabTrigger>
 <scope>source.python</scope>

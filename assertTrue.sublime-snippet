@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertTrue(${1:expr}${2:, message=${3:message}});
+assertTrue(${1:expr}${2:, msg=${3:message}})
 ]]></content>
 <tabTrigger>asst</tabTrigger>
 <scope>source.python</scope>

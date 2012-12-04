@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertLess(${1:first}, ${2:second}${3:, message=${4:message}});
+assertLess(${1:first}, ${2:second}${3:, msg=${4:message}})
 ]]></content>
 <tabTrigger>assl</tabTrigger>
 <scope>source.python</scope>

@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertRegexpMatches(${1:text}, ${2:regexp}${3:, message=${4:message}});
+assertRegexpMatches(${1:text}, ${2:regexp}${3:, msg=${4:message}})
 ]]></content>
 <tabTrigger>assrm</tabTrigger>
 <scope>source.python</scope>

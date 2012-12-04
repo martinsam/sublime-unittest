@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-assertIsNotInstance(${1:obj}, ${2:class}${3:, message=${4:message}});
+assertIsNotInstance(${1:obj}, ${2:class}${3:, msg=${4:message}})
 ]]></content>
 <tabTrigger>assnisins</tabTrigger>
 <scope>source.python</scope>
