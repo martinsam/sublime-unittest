@@ -1,0 +1,20 @@
+{
+	"schema_version": "0.1",
+	"packages": [
+		{
+			"name": "sublime-unittest",
+			"description": "Collection of snippets for SublimeText2 - python",
+			"author": "martinsam",
+			"homepage": "https://github.com/martinsam/sublime-unittest",
+			"last_modified": "2012-11-27 22:00:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.1",
+						"url": "https://github.com/martinsam/sublime-unittest"
+					}
+				]
+			}
+		}
+	]
+}
