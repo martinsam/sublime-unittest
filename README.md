@@ -12,7 +12,8 @@ Twitter: @[martinsam](http://twitter.com/martinsam)
 
 ### Automatic installation 
 
-@TODO - http://wbond.net/sublime_packages/package_control
+See http://wbond.net/sublime_packages/package_control
+`CTRL + SHIFT + P` > `Install Package` > Unittest (Python)
 
 ### Manual installation 
 
